@@ -17,6 +17,7 @@ class Paper{
 
     init(paper) {
       document.addEventListner('mousedown', (e) => {
+          console.log('Mouse down event:', e);
         if(!this.rotation) {
             this.mouseX = e.clientX;
             this.mouseY = e.clientY;
