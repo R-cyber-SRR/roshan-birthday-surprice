@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 
 
@@ -70,4 +70,15 @@ p {
   user-select: none;
   
   /* filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9)); */
+}
+
+@media (max-width: 768px) {
+  body {
+      flex-direction: column;
+      padding: 10px;
+  }
+  .paper {
+      padding: 10px;
+      transform: rotateZ(0deg);
+  }
 }
